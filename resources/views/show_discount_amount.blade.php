@@ -21,25 +21,25 @@
         <tr>
             <td>Product Description:</td>
             <td>
-                <input type="text" name="productDescription" placeholder="input product description">
+                <span>{{$productDescription}}</span>
             </td>
         </tr>
         <tr>
             <td>List Price:</td>
             <td>
-                <input type="text" name="listPrice" placeholder="input list price">
+                <span>{{$listPrice}}</span>
             </td>
         </tr>
         <tr>
             <td>Discount Percent:</td>
             <td>
-                <input type="text" name="discountPercent" placeholder="input discount percent">(%)
+                <span>{{$discountPercent}}</span>(%)
             </td>
         </tr>
         <tr>
             <td></td>
             <td>
-                <input type="submit" value="Calculate Discount">
+                <span>{{$discountAmount}}</span>
             </td>
         </tr>
     </table>

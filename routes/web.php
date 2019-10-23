@@ -11,9 +11,18 @@
 |
 */
 
+use Illuminate\Support\Facades\Route;
+
 Route::get('/product-discount', function () {
+
     return view('product_discount');
 });
 Route::post("/product-discount", function (Illuminate\Http\Request $request) {
-    return $request->listPrice * $request->discountPercent;
+
+    $productDescription = $request->productDescription;
+    $listPrice = $request->listPrice;
+    $discountPercent = $request->discountPercent;
+
+    $discountAmount = $listPrice * $discountPercent * 0.1;
+    return view('show_discount_amount', compact(['listPrice', 'productDescription', 'discountPercent', 'discountAmount']));
 });
