@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b974fffe-6994-4199-9555-3158cd909905" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/show_discount_amount.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/show_discount_amount.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/show_discount_amount.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -147,8 +147,16 @@
       <option name="presentableId" value="Default" />
       <updated>1571755277616</updated>
       <workItem from="1571755278699" duration="1379000" />
-      <workItem from="1571791338937" duration="3104000" />
+      <workItem from="1571791338937" duration="5627000" />
     </task>
+    <task id="LOCAL-00001" summary="final">
+      <created>1571794643204</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571794643204</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,5 +172,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="final" />
+    <option name="LAST_COMMIT_MESSAGE" value="final" />
   </component>
 </project>

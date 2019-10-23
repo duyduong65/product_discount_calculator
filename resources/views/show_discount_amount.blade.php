@@ -14,8 +14,7 @@
     </style>
 </head>
 <body>
-<form action="/product-discount" method="post">
-    @csrf
+<form >
     <table>
         <th><h1>Product Discount Calculator</h1></th>
         <tr>
